@@ -185,10 +185,13 @@ nav {
 	
 	&--heading,
 	&--galery,
-	&--hot,
-	&--abouthot
+	&--hot
+	
 	{
 		padding: 120px 0;
+	}
+	&--abouthot{
+		padding: 120px 0 0;
 	}
 	
 	&--heading{
@@ -280,6 +283,7 @@ nav {
 		&--lg{
 			font-weight: 800;
 			max-height: 80px;
+			margin: 0;
 		}
 	}
 	&__text{
@@ -336,7 +340,7 @@ nav {
 	}
 	&__right{
 		@include start-end(flex, flex-end);
-		
+		margin-bottom: 120px;
 	}
 	&__left{
 		@include start-end(flex, flex-start);
@@ -569,7 +573,7 @@ nav {
 	    font-size: 0;
 	    border: 1px solid $text-color;
 	    .slider__arrows &{
-	    	bottom: -83.5%;
+	    	bottom: -18%;
 	    }
 	    .slider__best &{
 	    	bottom: 7.4%;
