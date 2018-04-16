@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,800,900");
+
+@font-face {
+    font-family: 'Kaushanscript';
+    src: url('../fonts/kaushanscript-regular.eot');
+    src: url('../fonts/kaushanscript-regular.woff') format('woff'),
+         url('../fonts/kaushanscript-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$text-font: 700 19px/1.5 'Raleway', sans-serif;
+$text-font-heavy: 900 100px/1 'Raleway', sans-serif;
+$text-font-heavy-sm: 900 80px/1 'Raleway', sans-serif;
+$text-font-sub: 400 38px/1 'Raleway', sans-serif;
+$text-font-sub-sm: 400 34px/1.1 'Raleway', sans-serif;
+$kaushan: 400 30px/3 'Kaushanscript', sans-serif;
+
+$text-color: #3f3e41;
+$text-color-inv: #fff;
+$color-orng: #fd5c08;

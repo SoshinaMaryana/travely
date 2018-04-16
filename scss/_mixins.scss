@@ -1,0 +1,9 @@
+@mixin flex-d($display, $justify, $direction){
+	display: $display;
+	justify-content: $justify;
+	flex-direction: $direction;
+}
+@mixin start-end($display, $justify){
+	display: $display;
+	justify-content: $justify;
+}
