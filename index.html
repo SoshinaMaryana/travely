@@ -3,7 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>T R A V E L Y</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<link rel="shortcut icon" href="favicon.png" type="image/png">
@@ -24,6 +27,7 @@
 				</svg>
 			</a>
 			<nav>
+				<a href="#" class="nav-toggler"></a>
 				<ul class="menu menu--right">
 					<li class="menu__item">
 						<a href="#heading" class="menu__link menu__link--down">
@@ -61,6 +65,7 @@
 			</nav>
 		</div>
 	</header>
+<main>
 	<section class="section section--heading" id="heading">
 		<div class="container">
 			<div class="section__wrap section__wrap--heading">
@@ -106,125 +111,123 @@
 				</div>
 			</div>
 			<div class="galery__wrap">
-				<div class="section__items">
-					<div class="sizer"></div>
-					<div class="gutter"></div>
-					<div class="section__item" style="background-image: url('img/trip1.jpg')">
-						<div class="item__price"><span class="start">Starting at</span>
-							<svg class="evro" width="21" height="21"  fill="rgb(253, 92, 8)">
+				<div class="cards">
+					<div class="card" style="background-image: url('img/trip1.jpg')">
+						<div class="card__price"><span class="start">Starting at</span>
+							<svg class="evro" width="21" height="21" fill="rgb(253, 92, 8)">
 								<use xlink:href="#evro"></use>
 							</svg>	
 							<span class="cost">399</span>
 						</div>
-						<div class="item__overlay">
-							<div class="item__content">
-								<div class="item__subtitle">INDIA</div>
-								<div class="item__title">TAJ MAHAL from a different perspective</div>
-								<a href="#" class="item__more">
+						<div class="card__overlay">
+							<div class="card__content">
+								<div class="card__subtitle">INDIA</div>
+								<div class="card__title">TAJ MAHAL from a different perspective</div>
+								<a href="#" class="card__more">
 									<svg class="triangle" width="7" height="8"  fill="rgb(253, 92, 8)">
 										<use xlink:href="#triangle"></use>
 									</svg>
-									<span class="item__text">find out more</span>	
+									<span class="card__text">find out more</span>	
 								</a>
 							</div>
 						</div>
 					</div>
-					<div class="section__item" style="background-image: url('img/trip2.jpg')">
-						<div class="item__price"><span class="start">Starting at</span>
+					<div class="card" style="background-image: url('img/trip2.jpg')">
+						<div class="card__price"><span class="start">Starting at</span>
 							<svg class="evro" width="21" height="21"  fill="rgb(253, 92, 8)">
 								<use xlink:href="#evro"></use>
 							</svg>	
 							<span class="cost">920</span>
 						</div>
-						<div class="item__overlay">
-							<div class="item__content">
-								<div class="item__subtitle">CHINA</div>
-								<div class="item__title">Thousand Pillar Temple EXPEDITION</div>
-								<a href="#" class="item__more">
+						<div class="card__overlay">
+							<div class="card__content">
+								<div class="card__subtitle">CHINA</div>
+								<div class="card__title">Thousand Pillar Temple EXPEDITION</div>
+								<a href="#" class="card__more">
 									<svg class="triangle" width="7" height="8">
 										<use xlink:href="#triangle"></use>
 									</svg>
-									<span class="item__text">find out more</span>	
+									<span class="card__text">find out more</span>	
 								</a>
 							</div>
 						</div>
 					</div>
-					<div class="section__item" style="background-image: url('img/trip3.jpg')">
-						<div class="item__price"><span class="start">Starting at</span>
+					<div class="card" style="background-image: url('img/trip3.jpg')">
+						<div class="card__price"><span class="start">Starting at</span>
 							<svg class="evro" width="21" height="21"  fill="rgb(253, 92, 8)">
 								<use xlink:href="#evro"></use>
 							</svg>	
 							<span class="cost">259</span>
 						</div>
-						<div class="item__overlay">
-							<div class="item__content">
-								<div class="item__subtitle">GREECE</div>
-								<div class="item__title">SANTORINI ISLAND TRESAURE HUNT</div>
-								<a href="#" class="item__more">
+						<div class="card__overlay">
+							<div class="card__content">
+								<div class="card__subtitle">GREECE</div>
+								<div class="card__title">SANTORINI ISLAND TRESAURE HUNT</div>
+								<a href="#" class="card__more">
 									<svg class="triangle" width="7" height="8"  fill="rgb(253, 92, 8)">
 										<use xlink:href="#triangle"></use>
 									</svg>
-									<span class="item__text">find out more</span>	
+									<span class="card__text">find out more</span>	
 								</a>
 							</div>
 						</div>
 					</div>
-					<div class="section__item" style="background-image: url('img/trip4.jpg')">
-						<div class="item__price"><span class="start">Starting at</span>
+					<div class="card" style="background-image: url('img/trip4.jpg')">
+						<div class="card__price"><span class="start">Starting at</span>
 							<svg class="evro" width="21" height="21"  fill="rgb(253, 92, 8)">
 								<use xlink:href="#evro"></use>
 							</svg>	
 							<span class="cost">210</span>
 						</div>
-						<div class="item__overlay">
-							<div class="item__content">
-								<div class="item__subtitle">INDIA</div>
-								<div class="item__title">TAJ MAHAL from a different perspective</div>
-								<a href="#" class="item__more">
+						<div class="card__overlay">
+							<div class="card__content">
+								<div class="card__subtitle">INDIA</div>
+								<div class="card__title">TAJ MAHAL from a different perspective</div>
+								<a href="#" class="card__more">
 									<svg class="triangle" width="7" height="8">
 										<use xlink:href="#triangle"></use>
 									</svg>
-									<span class="item__text">find out more</span>	
+									<span class="card__text">find out more</span>	
 								</a>
 							</div>
 						</div>
 					</div>
-					<div class="section__item" style="background-image: url('img/trip5.jpg')">
-						<div class="item__price"><span class="start">Starting at</span>
+					<div class="card" style="background-image: url('img/trip5.jpg')">
+						<div class="card__price"><span class="start">Starting at</span>
 							<svg class="evro" width="21" height="21"  fill="rgb(253, 92, 8)">
 								<use xlink:href="#evro"></use>
 							</svg>	
 							<span class="cost">210</span>
 						</div>
-						<div class="item__overlay">
-							<div class="item__content">
-								<div class="item__subtitle">CHINA</div>
-								<div class="item__title">Thousand Pillar Temple EXPEDITION</div>
-								<a href="#" class="item__more">
+						<div class="card__overlay">
+							<div class="card__content">
+								<div class="card__subtitle">CHINA</div>
+								<div class="card__title">Thousand Pillar Temple EXPEDITION</div>
+								<a href="#" class="card__more">
 									<svg class="triangle" width="7" height="8">
 										<use xlink:href="#triangle"></use>
 									</svg>
-									<span class="item__text">find out more</span>	
+									<span class="card__text">find out more</span>	
 								</a>
 							</div>
 						</div>
 					</div>
-					<div class="section__item" style="background-image: url('img/trip6.jpg')">
-						<div class="item__price"><span class="start">Starting at</span>
+					<div class="card" style="background-image: url('img/trip6.jpg')">
+						<div class="card__price"><span class="start">Starting at</span>
 							<svg class="evro" width="21" height="21"  fill="rgb(253, 92, 8)">
 								<use xlink:href="#evro"></use>
 							</svg>	
 							<span class="cost">369</span>
 						</div>
-						<div class="item__overlay">
-							<div class="item__content">
-								<div class="item__subtitle">GREECE</div>
-								<div class="item__title">SANTORINI ISLAND TRESAURE HUNT</div>
-								<a  href="#" class="item__more">
+						<div class="card__overlay">
+							<div class="card__content">
+								<div class="card__subtitle">GREECE</div>
+								<div class="card__title">SANTORINI ISLAND TRESAURE HUNT</div>
+								<a  href="#" class="card__more">
 									<svg class="triangle" width="7" height="8"  fill="rgb(253, 92, 8)">
 										<use xlink:href="#triangle"></use>
 									</svg>
-									<span class="item__text">find out more</span>	
+									<span class="card__text">find out more</span>	
 								</a>
 							</div>
 						</div>
@@ -249,7 +252,7 @@
 						<div class="section__subtitle">
 								EXPERIENCE
 						</div>
-						<h1 class="section__title">AFRICAN SAFARI</h1>
+						<h1 class="section__title section__title--nowrap">AFRICAN SAFARI</h1>
 						<div class="section__text">
 								<p>Africa has been growing as a tourist destination, and as it becomes more and more accustomed to receiving so many visitors, its hospitality just gets better.
 								</p>
@@ -292,7 +295,7 @@
 							</div>
 							<h1 class="section__title">CHINA</h1>
 							<div class="section__text">
-								<p>China has been growing as a tourist destination, and as it becomes more and more accustomed to receiving so many visitors, its hospitality just gets better.
+								<p>China has been growing as a tourist destination, and as it becomes more and more accustomed to receiving so many visitors, just gets better.
 								</p>
 							</div>
 						</div>
@@ -306,7 +309,7 @@
 							<div class="item__offer">
 								<div class="item__content">
 									<div class="item__subtitle">China</div>
-									<div class="item__about">Thousand Pillar Temple EXPEDITION. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+									<div class="item__about">Thousand Pillar Temple expedition. Lorem ipsum dolor sit amet, consectetur elit. </div>
 									<a href="#" class="item__more">
 										<svg class="triangle" width="7" height="8">
 											<use xlink:href="#triangle"></use>
@@ -343,9 +346,9 @@
 							<h2 class="section__subtitle section__subtitle--lg">
 								Long journey’s
 							</h2>
-							<div class="section__notes section__notes--day">Today</div>
-							<div class="section__notes section__notes--price ">34,098</div>
-							<div class="section__notes">departures</div>
+							<div class="notes notes--day">Today</div>
+							<div class="notes notes--price ">34,098</div>
+							<div class="notes">departures</div>
 						</div>
 					</div>
 					<div class="slider__arrows">
@@ -410,7 +413,7 @@
 			<nav>
 				<ul class="menu">
 					<li class="menu__item">
-						<a href="#" class="menu__link menu__link--up active">
+						<a href="#hot" class="menu__link menu__link--up active">
 							last minute
 						</a>
 					</li>
@@ -428,6 +431,7 @@
 	<div id="map">
 		
 	</div>
+</main>
 	<footer class="footer">
 		<div class="container">
 			<div class="footer__wrap">
